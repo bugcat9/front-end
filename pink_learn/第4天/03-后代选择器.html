@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后代选择器</title>
+    <style>
+        /* 将ol里面的li选择出来为pink */
+        ol li {
+            color: pink;
+        }
+
+        ol li a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .nav a {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        这个不会变色
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>
+            <p>我是孙子</p>
+        </li>
+        <li><a href="#">我是孙子</a></li>
+    </ol>
+
+    <ul>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li><a href="#">我是孙子</a></li>
+        <li><a href="#">我是孙子</a></li>
+    </ul>
+
+    <ul class="nav">
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li><a href="#">我是孙子</a></li>
+        <li><a href="#">我是孙子</a></li>
+    </ul>
+</body>
+
+</html>

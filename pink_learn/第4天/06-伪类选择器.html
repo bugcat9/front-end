@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+    <style>
+        /* 最好按照LVHA的顺序，即link,visited,hover,active的顺序 */
+        /* 未访问的链接 a:link  */
+        a:link {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        /* 访问过的链接 a:visited */
+        a:visited {
+            color: orange;
+        }
+
+        /* 选择鼠标经过的链接 a:hover */
+        a:hover {
+            color: skyblue;
+        }
+
+        /* 选择鼠标按下的链接 a:active */
+        a:active {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">小猪佩奇</a>
+</body>
+
+</html>
