@@ -44,6 +44,26 @@ select下拉表单
 textarea文本域
 ```
 ## 第三天
-
+学习了
+```html
+标签选择器
+类标签选择器
+id选择器
+通配符选择器
+CSS字体属性：
+font-family:字体类型
+font-size：字体大小
+font-weight：字体粗细
+font-style：字体风格(斜体、正常)
+字体复合属性
+CSS文本属性：
+color:文本颜色
+text-align：文本水平对齐
+text-decoration：文本装饰(上划线、删除线、下划线等)
+text-indent：文本缩进(多用在p标签)
+line-height：行间距
+```
 ## 第四天
+
 ## 第五天
+## 第六天
