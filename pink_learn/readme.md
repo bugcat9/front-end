@@ -64,6 +64,28 @@ text-indent：文本缩进(多用在p标签)
 line-height：行间距
 ```
 ## 第四天
+学习了
+```
+emmet语法的使用
+后代选择器：后代都会被选择 eg: ol li 
+子元素选择器：只有直接的子代被选择 eg: .nav>a
+并集选择器：并集都选被选择 eg: div,p
+伪类选择器：a:link、a:visited、a:hover、a:active
+focus选择器：input:focus
 
+块级元素：有宽有高，一个元素占一行
+行内元素：没有宽高，一行可以有多个元素
+行内块元素：有宽有高，一行可以有多个元素
+元素显示模式转化：使用display
+文字居中：水平垂直使用text-align: center,垂直使用line-height=height
+
+background-color：背景颜色
+background-image：背景图片
+background-repeat：背景重复
+background-position：背景位置
+background-attachment：背景固定
+background: rgba(0, 0, 0, 0.6);背景半透明
+背景复合写法 background： 背景颜色 背景图片 背景平铺 背景图像滚动 背景图片位置
+```
 ## 第五天
 ## 第六天
