@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>品优购商城-综合网购首选-正品低价、品质保障、配送及时、轻松购物！</title>
+    <title>列表页-综合网购首选-正品低价、品质保障、配送及时、轻松购物！</title>
     <!-- 网站说明 -->
     <meta name="description"
         content="品优购商城-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/base.css">
     <!-- 引入我们公共的样式文件 -->
     <link rel="stylesheet" href="css/common.css">
+    <!-- 引入index.css -->
+    <link rel="stylesheet" href="css/list.css">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -61,6 +63,12 @@
                 <a href="#" title="品优购商城">品优购商城</a>
             </h1>
         </div>
+
+        <!-- 列表页的秒杀模块 -->
+        <div class="sk">
+            <img src="images/sk.png" alt="">
+        </div>
+
         <!-- Search搜索模块 -->
         <div class="search">
             <input type="search" placeholder="语言开发">
@@ -82,46 +90,74 @@
         </div>
     </header>
     <!-- header 头部模块制作 end -->
+
     <!-- nav 模块制作start -->
     <nav class="nav">
         <div class="w">
-            <div class="dropdown">
-                <div class="dt">全部商品分类</div>
-                <div class="dd">
-                    <ul>
-                        <li><a href="#">家用电器</a> </li>
-                        <li><a href="#">手机</a>、 <a href="#">数码</a>、<a href="#">通信</a> </li>
-                        <li><a href="#">电脑、办公</a> </li>
-                        <li><a href="#">家居、家具、家装、厨具</a> </li>
-                        <li><a href="#">男装、女装、童装、内衣</a> </li>
-                        <li><a href="#">个户化妆、清洁用品、宠物</a> </li>
-                        <li><a href="#">鞋靴、箱包、珠宝、奢侈品</a> </li>
-                        <li><a href="#">运动户外、钟表</a> </li>
-                        <li><a href="#">汽车、汽车用品</a> </li>
-                        <li><a href="#">母婴、玩具乐器</a> </li>
-                        <li><a href="#">食品、酒类、生鲜、特产</a> </li>
-                        <li><a href="#">医药保健</a> </li>
-                        <li><a href="#">图书、音像、电子书</a> </li>
-                        <li><a href="#">彩票、旅行、充值、票务</a> </li>
-                        <li><a href="#">理财、众筹、白条、保险</a> </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="navitems">
+            <div class="sk_list">
                 <ul>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
-                    <li><a href="#">服装城</a></li>
+                    <li><a href="#">品优秒杀</a></li>
+                    <li><a href="#">品优秒杀</a></li>
+                    <li><a href="#">品优秒杀</a></li>
+                </ul>
+            </div>
+            <div class="sk_con">
+                <ul>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#" class="style_red">女鞋</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">更多分类</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- nav 模块制作end -->
+
+    <!-- 列表页主体部分start -->
+    <div class="w sk_container">
+        <div class="sk_hd">
+            <img src="upload/bg_03.png" alt="">
+        </div>
+        <div class="sk_bd">
+            <ul class="clearfix">
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 列表页主体部分end -->
+
+
 
     <!-- 底部模块制作 footer start -->
     <footer class="footer">
