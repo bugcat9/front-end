@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff2') format('../font/woff2'), url('../font/iconfont.woff') format('../font/woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+}
+
 .c-font-normal {
     font: 13px/23px Arial, sans-serif;
 }
@@ -131,4 +137,161 @@ header .right_box {
     color: #fff;
     font-weight: 400;
     outline: none;
+}
+
+.s-hotsearch-title {
+    width: 656px;
+    height: 24px;
+    position: relative;
+    margin: 100px auto 0;
+    margin-bottom: 4px;
+    /* background: pink; */
+}
+
+.s-hotsearch-title .hot-title {
+    position: absolute;
+    left: 0;
+    color: #222;
+    font: 14px/24px Arial, sans-serif;
+}
+
+.s-hotsearch-title .hotsearch-refresh-btn {
+    position: absolute;
+    right: 0;
+    color: #9195a3;
+    font: 13px/23px Arial, sans-serif;
+}
+
+.s-hotsearch-title .hotsearch-refresh-btn .c-icon {
+    margin-right: 4px;
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 2px;
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.s-hotsearch-title .hotsearch-refresh-btn .hot-refresh-text {
+    cursor: pointer;
+    user-select: none;
+    float: right;
+}
+
+.s-hotsearch-content {
+    width: 656px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.s-hotsearch-content .hotsearch-item {
+    width: 268px;
+    float: left;
+}
+
+.s-hotsearch-content .odd {
+    margin-right: 59px;
+}
+
+.s-hotsearch-content .even {
+    margin-left: 59px;
+}
+
+.s-hotsearch-content .title-content {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font: 14px/24px Arial, sans-serif;
+}
+
+.s-hotsearch-content .title-content-index {
+    margin-right: 2px;
+    color: #fe2d46;
+    display: inline-block;
+    background: 0 0;
+    width: 18px;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+
+.s-hotsearch-content .title-content-title {
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    color: #222;
+}
+
+.title-content-mark {
+    margin-bottom: 4px;
+    background-color: #ff9812;
+    display: inline-block;
+    padding: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    color: #fff;
+    overflow: hidden;
+    line-height: 16px;
+    height: 16px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+.bottom_layer {
+    width: 100%;
+    min-width: 1250px;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0;
+    background-color: #fbfbfb;
+    text-align: left;
+    line-height: 40px;
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+}
+
+.bottom_layer .s-bottom-layer-left {
+    float: left;
+}
+
+.bottom_layer .s-bottom-layer-right {
+    float: right;
+    color: #bbb;
+}
+
+.lh {
+    display: inline;
+    margin-right: 20px;
+}
+
+.bottom_layer .s-bottom-layer-left .lh:first-child {
+    margin-left: 24px;
+}
+
+.bottom_layer .s-bottom-layer-left a {
+    font-size: 12px;
+}
+
+.c-color-gray2 {
+    color: #9195a3;
+}
+
+.bottom_layer .s-bottom-layer-left .lh .activit {
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+
+.s-bottom-recordcode {
+    color: #bbb;
 }

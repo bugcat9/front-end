@@ -76,3 +76,7 @@ body {
 .clearfix {
     *zoom: 1
 }
+
+p {
+    list-style: none;
+}
